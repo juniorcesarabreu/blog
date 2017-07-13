@@ -39,9 +39,9 @@ links:
     url: /series
   - title: Tags
     url: /tags
-  - title: About Me
-    url: https://juniorcesarabreu.tk/,
-    external: true
+  # - title: About Me
+  #   url: https://juniorcesarabreu.tk/
+  #   external: true
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
