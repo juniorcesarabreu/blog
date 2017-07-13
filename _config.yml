@@ -1,17 +1,20 @@
 # Site settings
-title: Willian Justen - Desenvolvedor Front End
-description: A blog about lorem ipsum dolor sit amet
-baseurl: "/cards-jekyll-template" # the subpath of your site, e.g. /blog
-url: "https://willianjusten.com.br" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+title: Júnior César Abreu - Desenvolvedor Mobile e Front End
+description: Um blog sobre programação para aprendizado
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://juniorcesarabreu.tk/blog" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
+username: juniorcesarabreu
+user_description: isto é um blog, eu acho
+email: juniorabreuantispam@outlook.com
+twitter_username: juniorcesarsg
+github_username:  juniorcesarabreu
 gplus_username:  lorem_ipsum
-disqus_username: lorem_ipsum
+disqus_username: juniorcesarabreu
+fb_username: juniorcesarabreu.sg
+stack_username: juniorcesarabreu
+linkedin_username: juniorcesarabreu
 
 # Build settings
 markdown: kramdown
@@ -36,7 +39,8 @@ links:
   - title: Tags
     url: /tags
   - title: About Me
-    url: /about
+    url: https://juniorcesarabreu.tk/,
+    external: true
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']

@@ -20,6 +20,8 @@ var jekyllCommand = (/^win/.test(process.platform)) ? 'jekyll.bat' : 'jekyll';
 
 /**
  * Build the Jekyll Site
+ // Em windows 10 mude : gulp.task('jekyll-build', function (done) para:
+ spawn('jekyll.bat', ['build'])
  */
 gulp.task('jekyll-build', function (done) {
 	browserSync.notify(messages.jekyllBuild);
