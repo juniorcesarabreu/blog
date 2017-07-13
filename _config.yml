@@ -1,8 +1,9 @@
 # Site settings
 title: Júnior César Abreu - Desenvolvedor Mobile e Front End
 description: Um blog sobre programação para aprendizado
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://juniorcesarabreu.tk/blog" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+# url: "http://localhost:3000"
+url: "http://juniorcesarabreu.tk" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: juniorcesarabreu
